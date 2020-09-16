@@ -1,6 +1,6 @@
 import todoist
 import logging
-
+import json
 
 class ToDo:
     def __init__(self, opts):
