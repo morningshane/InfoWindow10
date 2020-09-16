@@ -1,4 +1,4 @@
-import todoist
+from todoist import todoist
 import logging
 
 
