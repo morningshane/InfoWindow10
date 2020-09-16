@@ -1,4 +1,4 @@
-from PIL import todoist
+import todoist
 import logging
 
 
