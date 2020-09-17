@@ -58,7 +58,7 @@ sys.excepthook = HandleException
 # Main Program ################################################################
 def main():
     # Instantiate API modules
-    todo = modTodo.ToDo(todo_opts)
+    todo = modTodo.ToDo(todo)
     cal = modCalendar.Cal(calendar_opts)
     weather = modWeather.Weather(weather_opts)
 
