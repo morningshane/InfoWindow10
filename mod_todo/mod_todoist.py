@@ -3,7 +3,7 @@ import logging
 import json
 
 class ToDo:
-    def __init__(self, opts):
+    def __init__(self):
         logging.debug("Todo API: TODOIST")
         self.api = todoist.TodoistAPI('1e5212f77e2020066a7837c5e6ca1785674a4177')
         self.api.sync()
