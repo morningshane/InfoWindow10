@@ -82,7 +82,7 @@ simplejson==3.16.0
 six==1.12.0
 skywriter==0.0.7
 sn3218==1.2.7
-spidev==3.3
+spidev==3.4
 todoist-python==8.1.0
 touchphat==0.0.1
 twython==3.7.0
