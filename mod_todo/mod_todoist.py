@@ -1,4 +1,4 @@
-import todoist
+import todoist-python
 import logging
 import json
 
