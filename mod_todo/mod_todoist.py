@@ -5,7 +5,7 @@ import json
 class ToDo:
     def __init__(self,opts):
         logging.debug("Todo API: TODOIST")
-        self.api = todoist.TodoistAPI('1e5212f77e2020066a7837c5e6ca1785674a4177')
+        self.api = todoist.TodoistAPI('[api_key]')
         self.api.sync()
 
     def list(self):
