@@ -27,7 +27,7 @@ with open(iw_utils.getCWD()+"/config.json") as config_file:
 
 ## Rotation. 0 for desktop, 180 for hanging upside down
 rotation = config_data["general"]["rotation"]
-todo_opts = config_data["todo"]
+todo = config_data["todo"]
 calendar_opts = config_data["calendar"]
 weather_opts = config_data["weather"]
 
@@ -58,7 +58,7 @@ sys.excepthook = HandleException
 # Main Program ################################################################
 def main():
     # Instantiate API modules
-    todo = modTodo.ToDo(todo_opts)
+    todo = modTodo.ToDo(todo)
     cal = modCalendar.Cal(calendar_opts)
     weather = modWeather.Weather(weather_opts)
 
