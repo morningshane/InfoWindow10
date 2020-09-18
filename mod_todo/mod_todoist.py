@@ -1,6 +1,7 @@
 import todoist
 import logging
-from todoist import TodoistAPI
+from todoist import models
+from todoist import api
 
 class ToDo:
     def __init__(self,opts):
