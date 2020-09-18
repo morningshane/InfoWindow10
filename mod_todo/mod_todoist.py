@@ -2,6 +2,7 @@ import todoist
 import logging
 from todoist import models
 from todoist import api
+import options
 
 class ToDo:
     def __init__(self,opts):
